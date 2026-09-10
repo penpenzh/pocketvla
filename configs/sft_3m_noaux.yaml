@@ -1,0 +1,39 @@
+seed: 42
+data:
+  dataset_dir: dataset
+  episodes_collect: 10000
+  val_frac: 0.30
+  eval_episodes: 500
+model:
+  size: 3m
+  use_aux_heads: false
+  d_model: 160
+  n_layer: 3
+  d_ff: 1024
+  ch:
+  - 24
+  - 48
+  - 72
+  - 96
+  - 96
+  extra_blocks: 4
+  act_hidden:
+  - 1280
+  - 640
+  ground_hidden: 48
+train:
+  output_dir: outputs_sft_3m_noaux/train
+  epochs: 15
+  batch_size: 256
+  lr: 0.0003
+  weight_decay: 1.0e-05
+  balanced_losses: true
+  aux_target_weight: 1.0
+  aux_bin_weight: 1.0
+  action_grip_weight: 0.3
+eval:
+  ckpt: outputs_sft_3m_noaux/train/pocketvla-3m_noaux
+  output_dir: outputs_sft_3m_noaux/eval
+  gif_fps: 12
+  frame_res: 256
+  gifs: 30

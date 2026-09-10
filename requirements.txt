@@ -1,0 +1,8 @@
+# PocketVLA dependencies (version floors aligned with the tested environment)
+
+numpy>=1.26.4
+matplotlib>=3.8.4
+pillow>=11.3.0
+pyyaml>=6.0.2
+torch>=2.7.0
+transformers>=4.57.6        # verified on 4.57.6 and 5.7.0

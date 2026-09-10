@@ -1,0 +1,34 @@
+seed: 42
+data:
+  dataset_dir: dataset
+model:
+  size: 3m
+  use_aux_heads: true
+  d_model: 160
+  n_layer: 3
+  d_ff: 1024
+  ch:
+  - 24
+  - 48
+  - 72
+  - 96
+  - 96
+  extra_blocks: 4
+  act_hidden:
+  - 1280
+  - 640
+  ground_hidden: 48
+grpo:
+  ckpt: outputs_sft_3m/train/pocketvla-3m
+  test_set: dataset/test.npz
+  output_dir: outputs_grpo_3m
+  iterations: 100
+  group_size: 8
+  lr: 2.5e-05
+  episodes: 3000
+  eval_every: 0
+  gifs: 30
+  steps_per_domain: 20            # scenarios / gradient steps per iteration
+  aux_weight: 0.5
+  kl_coef: 2.0
+  early_stop: 20                  # early stop after N iterations without improvement (0 = off)
