@@ -14,7 +14,7 @@
 
 ## Introduction
 
-🚀 **Embodied AI is entering a period of explosive growth**, and VLA (Vision-Language-Action models) are one of the core technical paradigms driving this wave. This project builds a **VLA with only 3M parameters entirely from scratch** ✨ — the setup is light enough to train on an ordinary GPU 💻 and fast enough that ⚡ the full pipeline finishes within 10 minutes. PocketVLA consists of a vision encoder 👁️, a language-model trunk 🧠, and an action head 🦾 — the same structure as mainstream VLAs; it also provides an end-to-end implementation of **data generation → SFT behavior cloning → GRPO reinforcement learning → inference evaluation → OOD generalization evaluation** 🔄, so you can genuinely understand every piece of the VLA algorithm at minimal cost, instead of staying at the conceptual level 💡.
+🚀 **Embodied AI is entering a period of explosive growth**, and VLA (Vision-Language-Action models) are one of the core technical paradigms driving this wave. This project builds a **VLA with only 0.003B parameters entirely from scratch** ✨ — the setup is light enough to train on an ordinary GPU 💻 and fast enough that ⚡ the full pipeline finishes within 10 minutes. PocketVLA consists of a vision encoder 👁️, a language-model trunk 🧠, and an action head 🦾 — the same structure as mainstream VLAs; it also provides an end-to-end implementation of **data generation → SFT behavior cloning → GRPO reinforcement learning → inference evaluation → OOD generalization evaluation** 🔄, so you can genuinely understand every piece of the VLA algorithm at minimal cost, instead of staying at the conceptual level 💡.
 
 
 **🎉 This project includes:**
