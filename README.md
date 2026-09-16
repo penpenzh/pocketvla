@@ -1,5 +1,5 @@
 <p align="center"><img src="docs/imgs/logo.png" width="720" alt="PocketVLA"></p>
-<h1 align="center">PocketVLA：Building a 3M VLA from Absolute Zero</h1>
+<h1 align="center">PocketVLA：Building a 0.003B VLA from Absolute Zero</h1>
 
 <p align="center">
   简体中文 | <a href="docs/README_EN.md">English</a>
