@@ -28,6 +28,12 @@
 - 🌗 **OOD generalization evaluation** (`pvla/eval_ood.py` + `pvla/scenarios.py`): examines the model's out-of-distribution generalization.
 - 📦 **Open model weights & datasets**: pretrained SFT / GRPO checkpoints (HuggingFace format, [download](#download)) plus all 5 training/evaluation datasets (~65MB).
 
+## Update
+
+🔥 Following PocketVLA, **PocketWAM is now open source!**
+https://github.com/penpenzh/pocketwam
+
+
 ## Model Architecture
 
 
