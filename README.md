@@ -28,7 +28,7 @@
 - 📦 **开源模型权重与数据集**：预训练好的 SFT / GRPO checkpoint（HuggingFace 格式，[下载](#下载)）与全部 5 份训练/评测数据（约 65MB）。
 
 ## 更新
-🔥 继PocketVLA，现已开源[PocketWAM](https://github.com/penpenzh/pocketwam)
+🔥 2026.9.17. 继PocketVLA，现已开源[PocketWAM](https://github.com/penpenzh/pocketwam)
 
 ## 模型结构
 
